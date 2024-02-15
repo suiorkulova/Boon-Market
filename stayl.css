@@ -1,0 +1,299 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.welcome-text {
+  background-color: black;
+  text-align: center;
+  color: white;
+  height: 30px;
+  padding: 5px;
+  font-size: 13px;
+}
+
+.img-container {
+  background-image: url("./Rectangle.png");
+  height: 850px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.header-elements-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.boon {
+  color: #747474;
+  letter-spacing: 20px;
+}
+.market {
+  color: #747474;
+}
+
+.search-item {
+  display: flex;
+  list-style: none;
+  gap: 40px;
+  margin-top: 80px;
+  cursor: pointer;
+}
+
+.shop-tema {
+  text-align: center;
+  font-size: 60px;
+  margin-top: 20px;
+}
+
+.shop-now {
+  width: 240px;
+  height: 58px;
+  border: none;
+  background-color: #fabaa0;
+  border-radius: 7px;
+  cursor: pointer;
+  margin-top: 50px;
+  text-transform: uppercase;
+}
+
+.section {
+  /* text-align: center; */
+}
+
+.About {
+  color: #747474;
+  font-size: 12px;
+  text-transform: uppercase;
+  margin-top: 50px;
+  text-align: center;
+}
+
+.how-we-work {
+  font-size: 45px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.header-container {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  margin-top: 50px;
+}
+
+.img-good-for-you {
+  width: 200px;
+  height: 198px;
+}
+
+.about-h1 {
+  font-size: 24px;
+  margin: 20px;
+}
+
+.about-p {
+  color: #747474;
+  font-size: 12px;
+}
+
+.Fresh {
+}
+
+.Fresh-h1 {
+  font-size: 45px;
+  margin-top: 100px;
+  text-align: center;
+}
+
+.div-image {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+}
+
+.images1 {
+  width: 480px;
+  height: 480px;
+  margin-top: 100px;
+  display: flex;
+  justify-content: left;
+}
+
+.Collection {
+  width: 113px;
+  height: 26px;
+  border-radius: 3px;
+  background-color: #fbdcc5;
+  text-transform: uppercase;
+  margin-top: 10px;
+}
+
+.Waste-Free {
+  font-size: 30px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Simple {
+  font-size: 14px;
+  width: 295px;
+  height: 24px;
+  left: 90px;
+  line-height: 23.94px;
+  color: #747474;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.shop-now-1 {
+  color: #de470d;
+  text-decoration: none;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.div-text {
+  margin-top: 250px;
+}
+.div-toxin2 {
+  margin-top: 200px;
+}
+.div-toxin {
+  background-color: #f7f5f2;
+  width: 100%;
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+}
+.img-2 {
+  width: 480px;
+  height: 480px;
+  margin: 50px;
+}
+.btn2toxin {
+  width: 113px;
+  height: 26px;
+  background-color: #fbdcc5;
+  border-radius: 3px;
+  border: none;
+  font-size: 12px;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+.toxinh1 {
+  font-size: 30px;
+  margin-top: 20px 0;
+}
+.toxin-p {
+  font-size: 14px;
+  color: #747474;
+  margin: 20px 0;
+}
+.toxin-a {
+  color: #de470d;
+  text-decoration: none;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+.div-cofffee {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  margin-top: 50px;
+}
+.imgcoffee {
+  width: 480px;
+  height: 480px;
+  margin-top: 100px;
+  display: flex;
+  justify-content: left;
+}
+.coffeebtn {
+  border-radius: 3px;
+  background-color: #fbdcc5;
+  text-transform: uppercase;
+  margin-top: 10px;
+}
+.coffeeh1 {
+  font-size: 30px;
+  margin-top: 10px;
+}
+.coffee-p {
+  font-size: 14px;
+  color: #747474;
+  margin-top: 10px;
+}
+.coffeea {
+  color: #de470d;
+  text-decoration: none;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.glav-container {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+}
+
+.coffee-container {
+  margin-top: 250px;
+}
+
+.images4 {
+  width: 555px;
+  height: 523px;
+  margin-top: 150px;
+}
+
+.glav-container-2 {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  background-color: #f7f5f2;
+  margin-top: 70px;
+}
+
+.qwerty {
+  margin-top: 350px;
+}
+
+.qwerty1 {
+  font-size: 30px;
+  margin-top: 10px;
+}
+
+.qwerty2 {
+  font-size: 14px;
+  color: #747474;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.qwerty3 {
+  color: #de470d;
+  text-decoration: none;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.shoph1{
+  text-align: center;
+  font-size: 45px;
+  margin: 80px;
+}
